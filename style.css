@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #677788;
+    font-weight: 400;
+}
+
+.loginRegister{
+    height: 100vh;
+    background-color: #f8f8ff;
+}
+
+.svg{
+    max-width: 500px;
+    margin: -20% auto -60px auto;
+}
+
+.sideColumn{
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.formColumn{
+    background-color: #f8f8ff;
+}
+
+.side{
+    display: flex;
+    max-width: 5000px;
+}
+
+.name{
+    width: 50%;
+    margin: 0px 10px 0px 0px;
+}
+
+#registerForm{
+    display: none;
+}
+
+
+.form-inner{
+    padding: 60px 180px 60px 60px;
+    margin-top: -3%;
+}
+
+.sideColumn-inner > h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(65, 64, 64);
+}
+
+.btn1{
+    padding: 12px 30px;
+    border: none;
+    background: linear-gradient(90deg, rgba(17,81,230,1) 0%, rgba(89,134,238,1) 100%); 
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    width: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+input{
+    border-radius: 25px !important;
+    padding: 12px 20px !important;
+    background: rgba(255, 255, 255, 0.664) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkbox{
+    padding-left: 8px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    width: 220px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #F8F8FF;
+    border-radius: 25px;
+    padding: 12px 0px;
+}
+
+#logIn {
+    color: rgb(255, 255, 255);
+}
+
+#register {
+    margin-left: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.toggle-btn{
+    background: transparent;
+    border: none;
+    margin: 0 10px 0px 30px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+
+}
+button:focus{
+    outline: none !important;
+}
+
+
+#div1{
+    border: none;
+    background: linear-gradient(90deg, rgba(17,81,230,1) 0%, rgba(89,134,238,1) 100%); 
+    color: #ffffff;
+    border-radius: 30px;
+    width: 110px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+    .sideColumn {
+        background: #ffffff;
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 20px 60px;
+    }
+
+    .sideColumn-inner > h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgb(65, 64, 64);
+        font-size: 25px;
+    }
+
+    .sideColumn-inner > p {
+        display: none;
+    }
+    
+    .svg {
+        max-width: 500px;
+        margin: -8% auto -53px auto;
+    }
+
+    .form-inner {
+        padding: 20px 20px 80px 20px;
+        margin-top: -8%;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .sideColumn {
+        background: #ffffff;
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 20px 60px;
+    }
+
+    .sideColumn-inner > h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgb(65, 64, 64);
+        font-size: 25px;
+    }
+
+    .sideColumn-inner > p {
+        display: none;
+    }
+    
+    .svg {
+        max-width: 500px;
+        margin: -8% auto -53px auto;
+    }
+
+    .form-inner {
+        padding: 20px 20px 80px 20px;
+        margin-top: -8%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
